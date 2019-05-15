@@ -1,28 +1,19 @@
-# Adonis-React application
-
-This is an unofficial boilerplate for [AdonisJs](https://adonisjs.com/) with a [ReactJS](https://reactjs.org/) frontend, built from the [official fullstack application boilerplate for Adonisjs](https://github.com/adonisjs/adonis-fullstack-app)
 
 ## Setup
 
 You can manually clone the repo and then run `npm install`, or you can do it the Adonis way:
 
-First, install the cli tool globally:
+First, install all packages:
 
 ```bash
-npm i -g @adonisjs/cli
-```
-
-And then to create a project:
-
-```bash
-adonis new <name> --blueprint=MargotDem/adonis-react-app
+cd cafe
+npm install
 ```
 
 #### Development:
 To start developing your app, do:
 
 ```js
-cd <name>
 npm run dev
 ```
 
